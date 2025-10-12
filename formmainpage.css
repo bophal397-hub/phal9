@@ -1,0 +1,244 @@
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: blue;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.home-container-mainpage {
+  background-color: #001f4d;
+  border-radius: 25px;
+  padding: 40px;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.home-container-mainpage h1 {
+  color: gold;
+  font-size: 3em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.home-container-mainpage h2 {
+  color: #dfe8f1;
+  font-size: 1.8em;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid goldenrod;
+  padding-bottom: 5px;
+}
+
+.home-container-mainpage h3 {
+  color: goldenrod;
+  font-size: 1.4em;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  text-align: left;
+}
+.home-container-mainpage p {
+  font-size: 1.1em;
+  color: #dfe8f1;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.toc-list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.toc-list li {
+  margin-bottom: 10px;
+}
+
+.toc-list a {
+  color: gold;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+.toc-list a:hover {
+  color: goldenrod;
+  text-decoration: underline;
+}
+
+.guide-points {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.guide-points li {
+  margin-bottom: 15px;
+}
+
+.guide-points strong {
+  color: gold;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: goldenrod;
+  color: #001f4d;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 0 10px #000;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.back-to-top:hover {
+  background-color: gold;
+}
+
+hr {
+  border-top: 1px solid #003366;
+  width: 80%;
+  margin: 30px auto;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: blue;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.home-container-mainpage {
+  background-color: #001f4d;
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 0 15px #00000080;
+}
+
+.home-container-mainpage h1 {
+  color: gold;
+  font-size: 2.8em;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.home-container-mainpage p {
+  font-size: 1.1em;
+  color: #dfe8f1;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.message-board {
+  margin-top: 40px;
+  background-color: #002b5c;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #00000060;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.post-form label {
+  font-weight: bold;
+  color: #dfe8f1;
+}
+
+.post-form input,
+.post-form textarea {
+  background-color: #001f3f;
+  color: #ffffff;
+  border: 1px solid #004080;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 1em;
+  font-family: inherit;
+}
+
+.post-form textarea {
+  resize: vertical;
+}
+
+.post-form button {
+  background-color: goldenrod;
+  color: #001f4d;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.post-form button:hover {
+  background-color: gold;
+}
+
+.post-form .note {
+  font-size: 0.9em;
+  color: #ccc;
+  font-style: italic;
+  text-align: right;
+}
+
+.working-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.working-posts .post {
+  background-color: #001a3d;
+  border-left: 4px solid goldenrod;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.working-posts .post strong {
+  color: gold;
+  font-size: 1.1em;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.working-posts .post p {
+  color: #dfe8f1;
+  font-size: 1em;
+  line-height: 1.5;
+}
